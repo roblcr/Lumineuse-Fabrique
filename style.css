@@ -80,7 +80,7 @@ a {
 }
 
 .card-body {
-    width: 50%;
+    width: 100%;
 }
 
 .first-article {
@@ -91,6 +91,7 @@ a {
     font-size: xx-large;
     font-weight: bolder;
     padding-bottom: 1rem;
+    width: 100%;
 }
 
 .first-button {
@@ -124,6 +125,10 @@ a {
     }
 
     .card-body {
+        width: 100%;
+    }
+
+    .first-article-text {
         width: 100%;
     }
 }
@@ -185,6 +190,7 @@ a {
     .first-article-text {
         font-size: large;
         font-weight: bold;
+        width: 100%;
     }
 
     .primary-article {
