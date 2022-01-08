@@ -54,6 +54,10 @@ a {
     font-weight: 700;
 }
 
+.big-image {
+    width: 35%;
+}
+
 .menu-subtext {
     font-weight: normal;
 }
@@ -99,6 +103,133 @@ a {
     background-color: #3b7a69;;
 }
 
+.row {
+    margin: auto;
+}
+
+.second-row {
+    width: 100%;
+    justify-content: center;
+    padding-top: 6em;
+}
+
+.second-card {
+    border: none;
+}
+
+.second-article-text {
+    
+        font-size: xx-large;
+        font-weight: bolder;
+        padding-bottom: 1rem;
+        width: 100%;
+    
+}
+
+.second-button {
+    
+        border-radius: 1em;
+        background-color: #3b7a69;;
+    
+}
+
+.secondary-article {
+    display: flex;
+    width: 100%;
+}
+
+.square-card {
+    border: none;
+    margin-right: 1em;
+    color: white;
+    text-align: center;
+}
+
+.card-real {
+    border: none;
+    margin-right: 1em;
+    color: white;
+    text-align: center;
+}
+
+.card-actu {
+    border: none;
+    margin-right: 1em;
+    color: white;
+    text-align: center;
+}
+
+.first-card-article {
+    background-color: #598e7f;
+    padding: 3em 2em;
+}
+
+.second-card-article {
+    background-color: #e2b250;
+    padding: 3em 2em;
+}
+
+.third-card-article {
+    background-color: #3c7a68;
+    padding: 3em 2em;
+}
+
+.button-posts {
+    background-color: #dba819;
+    color: white;
+    border-style: none;
+    padding: 0.2em 1em;
+}
+
+.black-body {
+    color: black;
+}
+
+.real-title {
+    border-bottom: solid #deb342 0.1em;
+    width: 1em;
+    padding-bottom: 0.4em;
+}
+
+.actu-title {
+    border-bottom: solid #deb342 0.1em;
+    width: 1em;
+    padding-bottom: 0.4em;
+}
+
+.icons {
+    width: 4em;
+    height: 4em;
+    border-radius: 3em;
+    background-color: white;
+    position: absolute;
+    top: -2em;
+    left: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-img {
+    width: 2em;
+}
+
+.img-real {
+    align-self: center;
+    width: 10em;
+}
+
+
+@media (max-width: 1280px) {
+
+.big-image {
+    width: 50%;
+}    
+
+.first-article-text {
+    width: 100%;
+}
+
+}
 
 
 @media (max-width: 1024px) {
@@ -131,6 +262,8 @@ a {
     .first-article-text {
         width: 100%;
     }
+    
+    
 }
 
 @media (max-width: 800px) {
@@ -179,6 +312,11 @@ a {
         padding: 1rem 1rem;
     }
 
+    .second-card {
+        border: none;
+        padding: 1rem 1rem;
+    }
+
     .card-body {
         width: 100%;
     }
@@ -186,8 +324,18 @@ a {
     .first-article {
         width: 100%;
     }
+
+    .second-article {
+        width: 100%;
+    }
     
     .first-article-text {
+        font-size: large;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    .second-article-text {
         font-size: large;
         font-weight: bold;
         width: 100%;
@@ -201,6 +349,14 @@ a {
         margin: auto;
     }
 
+    .second-row {
+        margin: auto;
+    }
+
     .big-img {
+        display: none;
+    }
+
+    .second-img {
         display: none;
     }
